@@ -1,0 +1,24 @@
+body {margin:0px; background-color: #eeeeee;}
+nav {background-color: #F76900; padding: 20px; margin: 0px; text-align: right; font-family: Verdana, sans-serif;}
+nav a:link {color: #000E54; text-decoration: none;}
+nav a:visited {color:#000E54 }
+main {font-family: Verdana, sans-serif;}
+
+.top {display: flex; margin: 10px;}
+.imgleft {order: 1;}
+.auditiontext {order: 2; text-align: center; padding: 60px;}
+.imgright {order: 3;}
+
+.middle {display: flex; margin: 10px;}
+.requiredmusic {order: 1; text-align: center; margin-left: 90px; background-color: #F76900;}
+.imgcenter {order: 2; justify-content: center; margin-left: 350px;}
+.othermusic {order: 3; text-align: center; margin-left: 200px; margin-right: 50px; padding-top: 100px; background-color: #F76900;}
+
+.bottom {display: flex; background-color: #F76900; justify-content: center; padding-bottom: 10px;}
+.handbook {width: 40%; margin: auto;}
+.closer {width: 40%; margin: auto;}
+
+@media only screen and (max-width: 800px) {
+    nav a {display: block; width: 100%; margin: 1em;} 
+    span {display: none;}  
+   }
