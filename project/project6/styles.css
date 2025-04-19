@@ -4,7 +4,7 @@ nav a:link {color: #000E54; text-decoration: none;}
 nav a:visited {color:#000E54 }
 main {font-family: Verdana, sans-serif;}
 
-.top {display: flex; margin: 10px;}
+.top {display: flex; margin: 10px; flex-wrap: wrap;}
 .imgleft {order: 1;}
 .auditiontext {order: 2; text-align: center; margin: 60px;}
 .imgright {order: 3;}
