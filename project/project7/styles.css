@@ -1,0 +1,79 @@
+body {margin:0px; background-color: #eeeeee;}
+nav {background-color: #F76900; padding: 20px; margin: 0px; text-align: center; font-family: Verdana, sans-serif;}
+nav a:link {color: #000E54; text-decoration: none;}
+nav a:visited {color:#000E54}
+main {font-family: Verdana, sans-serif;}
+
+.top {display: flex; margin: 10px;}
+.imgleft {order: 1;}
+.auditiontext {order: 2; text-align: center; margin: 60px;}
+.imgright {order: 3;}
+
+.middle {display: flex; margin: 10px;}
+.requiredmusic {order: 1; align-content: center; background-color: #F76900; padding: 60px; height: 100%; width: 100%;}
+.imgcenter {order: 2; padding-left: 60px; padding-right: 60px;}
+.othermusic {order: 3; text-align: center; background-color: #F76900; align-content: center; width: 150%;}
+
+.bottom {display: flex; background-color: #F76900; justify-content: center; padding-bottom: 10px;}
+.handbook {width: 40%; margin: auto; padding-top: 10px;}
+.closer {width: 40%; margin: auto; padding-top: 10px;}
+.instagram {padding-top: 10px; padding-right: 10px;}
+
+.homeimages {display: flex;}
+.homeimg1 {order: 1;}
+.homeimg3 {order: 2;}
+/*.homeimg2 {display: flex; width: fit-content;}*/
+.homebanner {display: flex; justify-content: center; margin: 10px;}
+.homecontent {background-color: #F76900; text-align: center; margin: 10px; padding: 10px; border-radius: 10px;}
+
+
+.info {display: flex; flex-direction: column; margin-left: 10px; margin-right: 10px; background-color: #F76900; width: 50%;}  
+
+.faq {margin: 10px; padding: 10px;}
+.faqquestion {font-size: large; background: none; border: none; cursor: pointer; color: #000E54; padding: 10px;}
+.faqanswer {display: none; margin: 10px;}
+.faqicon{font-size: larger;}
+
+.column {float: left; width: -50%; padding-left: 20px; text-align: center;}
+.column2 {float: right; width: 50%; padding: 20px; margin-top: 20px; background-color: #F76900; border-radius: 10px; text-align: center; padding-bottom: 20px;}
+
+.faqitem, .faqanswer{ background-color: #F76900;}
+.schedule {background-color: #F76900; border-radius: 10px; padding: 10px;}
+
+.nav_logo {float:left;}
+
+
+@media only screen and (max-width: 800px) {
+    nav a {display: block; width: 100%; margin: 1em;} 
+    nav span {display: none;}
+    .middle {flex-wrap: wrap;}
+    img {max-width: 100%;}
+    .requiredmusic {text-align: center;}
+    .imgcenter {margin: 10px;}
+    .top{flex-wrap: wrap;}
+    .faqquestion {text-align: left;}
+    .column1 {padding-right: 10px;}
+    .column2 {width: 85%; text-align: left;}
+    .column2 h2 {text-align: center;}
+    .column2 img {text-align: center;}
+    .bottom {flex-direction: column; text-align: center;}
+    }
+
+img {max-width: 100%;}
+
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+  .skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+  }
+
+
