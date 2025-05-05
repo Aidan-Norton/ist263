@@ -15,6 +15,8 @@ main {font-family: Verdana, sans-serif;}
 .othermusic {order: 3; text-align: center; background-color: #F76900; align-content: center; width: 150%;}
 
 .bottom {display: flex; background-color: #F76900; justify-content: center; padding-bottom: 10px;}
+.bottom a {color: #000E54;}
+.bottom a:visited {color: #000E54;}
 .handbook {width: 40%; margin: auto; padding-top: 10px;}
 .closer {width: 40%; margin: auto; padding-top: 10px;}
 .instagram {padding-top: 10px; padding-right: 10px;}
